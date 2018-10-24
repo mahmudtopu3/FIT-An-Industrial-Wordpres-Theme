@@ -1,0 +1,81 @@
+.gal{
+    padding-top: 2%;
+    background-color: rgba(56, 15, 98, 0.93);
+         display: block;
+        background: url(../images/document3.jpg) no-repeat 0px 0px;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+}
+.container {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100% !important;
+  height: 300px;
+ 
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #23333599;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+
+
+}
+.img{
+  padding: 6px;
+  margin: 0;
+
+}
+.img:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+    #OverlayText{
+    width: 100%;
+    height: auto;
+}
+    .image {
+  display: block;
+  width: 100% !important;
+  height: 200px;
+ 
+}
+    #OverlayTextDiv img{
+
+    height: 200px;
+
+}
+    .gal{
+    padding-top: 11%;
+
+   
+}

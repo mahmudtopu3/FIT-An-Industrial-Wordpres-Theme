@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Economica');
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+.header-right div ul li a {
+    display: block;
+}
+
+.row {
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+.wrapper {
+    overflow-x: hidden;
+}
+
+.section-mobile {
+    display: none;
+}
+
+.section-mobile a {
+    display: none!important;
+}
+
+.map-pos p a {
+    color: rgba(255, 255, 255, 0.89) font-size: 2em !important;
+    font-family: 'Economica', sans-serif;
+}
+
+@media(max-width: 768px) {
+    .logo h1 {
+        font-size: 1.8em !important;
+    }
+    .logo {
+        width: 60%!important;
+    }
+    .nav-w3l {
+        width: 40%!important;
+        background: none;
+    }
+    .ph-agile {
+        float: left;
+        background: rgba(255, 75, 75, 0.78);
+        width: 80%!important;
+        position: absolute;
+        z-index: -1;
+
+    }
+    .slider a {
+        font-size: 1.1em;
+    }
+    .slider p {
+        font-size: .9em;
+    }
+    .backTop a {
+        font-size: 2.5em;
+        display: block;
+        cursor: pointer;
+        z-index: 3!important;
+        color: #f40171;
+    }
+    .section-pc {
+        display: none;
+    }
+    .mobile-slogan {
+        margin-top: 11%!important;
+        background: rgba(252, 252, 252, 0.63);
+    }
+    .mobile-title {
+        background: rgba(252, 252, 252, 0.63);
+        font-size: 2.4em;
+    }
+    .section-mobile {
+        display: block;
+        background: url(../images/bg4.jpg) no-repeat 0px 0px;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        -ms-background-size: cover;
+    }
+    .owl-carousel p {
+        margin-top: 4%;
+        font-family: 'Exo 2', sans-serif;
+        font-size: 1.4em;
+        background: rgba(252, 252, 252, 0.63);
+    }
+    .owl-carousel img {
+        height: 10%;
+    }
+    .mobile-about {
+        background: rgba(255, 255, 255, 0.96);
+    }
+    .mobile-about h3 {
+        background: rgba(252, 252, 252, 0.63);
+        font-family: 'Exo 2', sans-serif;
+        font-size: 1.8em;
+        margin-top: 1%;
+    }
+    .mobile-about img {
+        width: 10%;
+        height: 10%;
+    }
+    .mobile-about a {
+        width: 100%;
+        margin-top: 2px;
+        font-size: 1em;
+        font-family: 'Exo 2', sans-serif;
+        text-align: center;
+    }
+
+    button.accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+    }
+
+    button.accordion.active,
+    button.accordion:hover {
+        background-color: #ddd;
+    }
+
+    button.accordion:after {
+        content: '\002B';
+        color: #777;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+
+    button.accordion.active:after {
+        content: "\2212";
+    }
+
+    div.panel {
+        padding: 0 18px;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+    .mobile-product {
+        margin-top: -10%;
+
+    }
+    .image-box img {
+        height: 300px;
+    }
+    .welcome-grids p {
+        font-size: 1em;
+    }
+    .welcome-grids a {
+        width: 100%;
+        margin-top: 2px;
+        text-align: center;
+        font-size: 1.2em;
+        font-family: 'Exo 2', sans-serif;
+    }
+    .other-products {
+        font-size: .8em;
+    }
+    .galleryNew button {
+
+        font-size: 1em;
+    }
+    .map img {
+        height: 280px;
+    }
+    .mobile-video {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+
+    #pc-link {
+        display: none;
+        !important
+    }
+    .mobile-link {
+        display: block;
+        !important
+    }
+    .mobile-link img{
+        width: 30px;
+        height: 20px;
+        margin-top: 1px;
+    }
+
+
+
+    .main-product a{
+        font-size: 14px;
+    }
+
+
+    .m-product{
+        display: block;
+    }
+
+
+
+
+}
+
+.messagearea{
+    height: 40vh;
+}
+.hederinfo{
+    
+    margin-right:3%;
+
+}
+.ph-agile a{
+    text-decoration: none;
+    color:#ffffff;
+}
